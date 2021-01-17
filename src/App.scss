@@ -1,0 +1,20 @@
+/*
+  Evan MacHale - 19191391
+  07.10.19
+  App.scss
+*/
+
+$feature-flags: (
+  ui-shell: true,
+  grid-columns-16: true,
+);
+
+@import '@carbon/themes/scss/themes';
+// Use the gray 100 theme
+$carbon--theme: $carbon--theme--g100;
+@include carbon--theme();
+
+@import 'carbon-components/scss/globals/scss/styles.scss';
+// @import '@carbon/grid/scss/grid';
+
+@import './components/nav/nav.scss';
