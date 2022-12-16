@@ -1,10 +1,20 @@
-# carbon-react-starter
+# Carbon Next.js Template
 
-Following IBM's Carbon Design System [Tutorial](https://www.carbondesignsystem.com/tutorial/react/overview) for version 10 w/ [React](https://reactjs.org/) & [Node](https://nodejs.org/en/)
+This project is currently a work-in-progress template for working with the
+Carbon Design System and Next.js
 
+## About
 
-### How to use
-```bash
-npm install
-npm run build
-```
+### Project
+
+| Command                    | Description                                                            |
+| :------------------------- | :--------------------------------------------------------------------- |
+| `yarn build`               | Build the project files                                                |
+| `yarn clean`               | Remove all generated artifacts from the project                        |
+| `yarn develop`             | Start the Next.js development server                                   |
+| `yarn format`              | Format files in the project using prettier                             |
+| `yarn lint`                | Run ESLint on JavaScript or TypeScript files using ESLint              |
+| `yarn lint:styles`         | Run Stylelint on Sass and CSS files                                    |
+| `yarn start`               | Start the production Next.js server                                    |
+| `yarn test`                | Run test files in the project using Jest                               |
+| `yarn upgrade-interactive` | Use a Yarn plugin to interactively upgrade dependencies in the project |
